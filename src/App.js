@@ -127,7 +127,6 @@ function App() {
     }
   ]
 let [show, setShow] = useState(false);
-console.log(count)
   return (
     <div className='app-div'>
       <div className='inside-app'>
@@ -164,7 +163,7 @@ console.log(count)
       </div>
       <div className='menu-bar'>
         <button onClick={showAll}>
-      <FontAwesomeIcon className='icon' icon={faBars}/>
+      <FontAwesomeIcon className='icon2' icon={faBars}/>
       </button>
       </div>
 

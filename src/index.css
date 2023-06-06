@@ -149,7 +149,7 @@ h4{
 }
 .products{
   margin-top: 30px;
-  width: 80%;
+  width: 85%;
   margin: 40px auto;
   place-content: center;
   display: grid;
@@ -301,6 +301,22 @@ h5{
     padding-left: 26px;
     display: block;
   }
-  
+  .cart-btn1 button{
+    padding: 7px;
+    font-size: 15px;
+  }
+  .menu-bar button{
+    border: none;
+    outline: none;
+  }
+}
+@media only screen and (max-width:400px){
+  .img-header{
+    font-size: 35px;
+    text-align: center;
+  }
+  .light{
+    font-size: 15px;
 
+  }
 }
